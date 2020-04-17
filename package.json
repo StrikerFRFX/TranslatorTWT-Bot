@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "TranslatorTWT Bot Dev Team",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.6.2",
