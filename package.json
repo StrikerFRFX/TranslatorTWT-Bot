@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint ./ --fix",
-    "start": "node main.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
