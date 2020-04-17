@@ -33,6 +33,7 @@
             "maxBOF": 0
         }],
         "no-trailing-spaces": "warn",
+        "no-undef": "warn",
         "no-unused-vars": "off",
         "object-curly-spacing": ["error", "always"],
         "prefer-const": "error",
