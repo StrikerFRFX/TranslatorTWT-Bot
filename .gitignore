@@ -17,3 +17,5 @@ config.js
 
 #Package lock
 package-lock.json
+
+.env
