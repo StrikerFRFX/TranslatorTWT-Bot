@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "TranslatorTWT Bot Dev Team",
+  "author": "TranslatorTWT Bot Dev Team (GGTyler/gayschlatt & Striker/PikaSchlatt)",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.6.2",
