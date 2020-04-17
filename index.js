@@ -56,4 +56,4 @@ global.client.registry
   .registerDefaultCommands({help:false,eval:false})
   .registerCommandsIn(path.join(__dirname,'cmds'));
 // Login
-global.client.login(process.env.token);
+global.client.login(process.env.TOKEN);
