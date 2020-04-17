@@ -4,7 +4,7 @@ module.exports = class SendCommand extends Commando.Command {
   constructor(client) {
     super(client, {
       name: 'send',
-      aliases: ['msg','sendmsg'],
+      aliases: ['msg', 'sendmsg'],
       group: 'gen',
       memberName: 'send',
       description: 'Makes me send a message.',
@@ -19,10 +19,10 @@ module.exports = class SendCommand extends Commando.Command {
       ]
     });
   }
-  async run(message, {msg}) {
-    msg = msg.replace('@','*@*');
+  async run(message, { msg }) {
+    msg = msg.replace('@', '*@*');
     message.delete();
     if (msg == '') message.channel.send(String.fromCharCode(8204));
     else message.channel.send(msg);
   }
-}
+};

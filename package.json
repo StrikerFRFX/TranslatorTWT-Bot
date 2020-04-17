@@ -1,10 +1,11 @@
 {
-  "name": "TranslatorTWT-bot",
+  "name": "translatortwt-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ./ --fix",
+    "start": "node main.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "discord.js": "^11.6.2",
     "discord.js-commando": "^0.10.0",
+    "eslint": "^6.8.0",
     "express": "^4.17.1",
     "sqlite": "^4.0.7"
   }

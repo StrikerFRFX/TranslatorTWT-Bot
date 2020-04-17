@@ -4,7 +4,7 @@ module.exports = class OwoifyCommand extends Commando.Command {
   constructor(client) {
     super(client, {
       name: 'owoify',
-      aliases: ['uwuify','owo','uwu'],
+      aliases: ['uwuify', 'owo', 'uwu'],
       group: 'meme',
       memberName: 'owoify',
       description: 'owoifies a message',
@@ -17,10 +17,10 @@ module.exports = class OwoifyCommand extends Commando.Command {
       ]
     });
   }
-  async run(message, {msg}) {
-    msg = msg.replace('@','*@*');
-    msg = msg.replace(/[lr]/g,"w");
-    msg = msg.replace(/[LR]/g,"W");
+  async run(message, { msg }) {
+    msg = msg.replace('@', '*@*');
+    msg = msg.replace(/[lr]/g, 'w');
+    msg = msg.replace(/[LR]/g, 'W');
     message.channel.send(msg);
   }
-}
+};
